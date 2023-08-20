@@ -1,4 +1,4 @@
-import Navigation from "./Navigation/Navigation";
+import HeaderNavigation from "./HeaderNavigation/HeaderNavigation";
 import Search from "./Search";
 
 import styles from "./Header.module.css";
@@ -11,8 +11,8 @@ const Header = function () {
         alt="Trillo Logo"
         className={styles.logo}
       />
-      <Search className={styles.search}/>
-      <Navigation className={styles.navigation}/>
+      <Search className={styles.search} />
+      <HeaderNavigation className={styles.navigation} />
     </header>
   );
 };

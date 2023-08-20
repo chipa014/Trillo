@@ -1,9 +1,9 @@
 import IconBox from "./IconBox";
 import User from "./User";
 
-import styles from "./Navigation.module.scss";
+import styles from "./HeaderNavigation.module.scss";
 
-const Navigation = function () {
+const HeaderNavigation = function () {
   return (
     <nav className={styles.nav}>
       <IconBox iconName="bookmark" notification={7} />
@@ -13,4 +13,4 @@ const Navigation = function () {
   );
 };
 
-export default Navigation;
+export default HeaderNavigation;
