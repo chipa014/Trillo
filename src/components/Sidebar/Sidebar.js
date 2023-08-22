@@ -1,7 +1,7 @@
 import NavItem from "./NavItem";
 import styles from "./Sidebar.module.css";
 
-const Sidebar = function () {
+const Sidebar = function (props) {
   const navigation = [
     { icon: "home", text: "Hotel", active: true },
     { icon: "aircraft", text: "Flight" },
@@ -10,7 +10,7 @@ const Sidebar = function () {
   ];
 
   return (
-    <nav className={styles.sidebar}>
+    <nav className={`${props.className} ${styles.sidebar}`}>
       <ul className={styles.list}>
         {navigation.map((navItem) => (
           <NavItem

@@ -1,0 +1,10 @@
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: var(--color-primary);
+}

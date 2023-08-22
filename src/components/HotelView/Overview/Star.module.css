@@ -1,0 +1,12 @@
+.star {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.full {
+  fill: var(--color-primary);
+}
+
+.empty {
+  fill: var(--color-grey-dark-3);
+}
