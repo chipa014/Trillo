@@ -31,20 +31,20 @@
 }
 
 .link {
-  &:link,
-  &:visited {
-    color: var(--color-grey-light-1);
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    padding: 1.5rem 3rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-grey-light-1);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 1.5rem 3rem;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    position: relative;
-    z-index: 10;
-  }
+  position: relative;
+  z-index: 10;
 }
 
 .icon {

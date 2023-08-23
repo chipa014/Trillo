@@ -1,3 +1,4 @@
+import Detail from "./Detail/Detail";
 import Gallery from "./Gallery/Gallery";
 import Overview from "./Overview/Overview";
 
@@ -8,6 +9,7 @@ const HotelView = function () {
     <main className={styles["hotel-view"]}>
       <Gallery />
       <Overview />
+      <Detail />
     </main>
   );
 };
