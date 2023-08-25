@@ -1,4 +1,4 @@
-import styles from "./UserRating.module.css";
+import styles from "./UserRating.module.scss";
 
 const UserRating = function (props) {
   return (

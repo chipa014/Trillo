@@ -1,7 +1,7 @@
 import Advantage from "./Advantage";
 import Recommendations from "./Recommendations";
 
-import styles from "./Description.module.css";
+import styles from "./Description.module.scss";
 
 const Description = function () {
   const advantages = [

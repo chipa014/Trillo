@@ -1,7 +1,7 @@
 import Description from "./Description/Description";
 import UserReviews from "./UserReviews/UserReviews";
 
-import styles from "./Detail.module.css";
+import styles from "./Detail.module.scss";
 
 const Detail = function () {
   return (

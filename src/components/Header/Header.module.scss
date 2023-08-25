@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 .header {
   height: 7rem;
   background-color: var(--color-white);
@@ -8,6 +10,12 @@
   align-items: center;
 
   font-size: 1.4rem;
+
+  @media only screen and (max-width: $bp-smaller) {
+    flex-wrap: wrap;
+    height: 11rem;
+    align-content: space-around;
+  }
 }
 
 .logo {
@@ -17,4 +25,9 @@
 
 .search {
   flex: 0 0 40%;
+
+  @media only screen and (max-width: $bp-smaller) {
+    order: 1;
+    flex: 0 0 100%;
+  }
 }

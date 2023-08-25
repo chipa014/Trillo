@@ -1,3 +1,5 @@
+@import "../../../index.scss";
+
 .rating {
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -8,12 +10,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 0 1.5rem;
+  }
 }
 
 .average {
   font-size: 2.25rem;
   font-weight: 300;
   margin-bottom: -0.5rem;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 1.8rem;
+  }
 }
 
 .votes {

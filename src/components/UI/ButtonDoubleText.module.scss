@@ -1,0 +1,60 @@
+@import "./InlineButton.module.scss";
+
+.button {
+  font-size: 1.5rem;
+  border: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 100rem;
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary-light),
+    var(--color-primary-dark)
+  );
+  color: var(--color-white);
+
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    background-image: linear-gradient(
+      to right,
+      var(--color-primary-dark),
+      var(--color-primary-light)
+    );
+
+    .visible {
+      transform: translateY(100%);
+    }
+
+    .invisible {
+      top: 0;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    animation: pulsate 1s infinite;
+  }
+}
+
+.visible,
+.invisible {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+}
+
+.visible {
+  padding: 2rem 7.5rem;
+}
+
+.invisible {
+  position: absolute;
+  left: 0;
+  top: -100%;
+
+  padding: 2rem 0;
+}

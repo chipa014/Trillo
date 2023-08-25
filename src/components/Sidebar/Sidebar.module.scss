@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 .sidebar {
   background-color: var(--color-grey-dark-1);
   display: flex;
@@ -9,6 +11,11 @@
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    display: flex;
+    margin-top: 0;
+  }
 }
 
 .legal {
@@ -16,4 +23,8 @@
   text-align: center;
   padding: 2.5rem;
   color: var(--color-grey-light-4);
+
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }

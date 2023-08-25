@@ -1,5 +1,5 @@
 import NavItem from "./NavItem";
-import styles from "./Sidebar.module.css";
+import styles from "./Sidebar.module.scss";
 
 const Sidebar = function (props) {
   const navigation = [

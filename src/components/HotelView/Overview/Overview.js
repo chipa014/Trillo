@@ -2,7 +2,7 @@ import Location from "./Location";
 import StarRating from "./StarRating";
 import UserRating from "./UserRating";
 
-import styles from "./Overview.module.css";
+import styles from "./Overview.module.scss";
 
 const Overview = function () {
   return (

@@ -9,3 +9,7 @@
 .count {
   margin-right: auto;
 }
+
+.friends {
+  display: flex;
+}

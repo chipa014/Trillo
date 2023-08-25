@@ -1,5 +1,5 @@
 import Star from "./Star";
-import styles from "./StarRating.module.css";
+import styles from "./StarRating.module.scss";
 
 const StarRating = function (props) {
   const fullStars = Math.round(+props.rating);

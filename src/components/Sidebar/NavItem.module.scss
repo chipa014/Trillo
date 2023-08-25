@@ -1,8 +1,14 @@
+@import "../../index.scss";
+
 .item {
   position: relative;
 
   &:not(:last-child) {
     margin-bottom: 0.5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      margin-bottom: 0;
+    }
   }
 
   &::before {
@@ -22,6 +28,10 @@
   &:active::before {
     background-color: var(--color-primary-light);
   }
+
+  @media only screen and (max-width: $bp-medium) {
+    flex: 1;
+  }
 }
 
 .item:hover::before,
@@ -31,6 +41,7 @@
 }
 
 .link {
+  width: 100%;
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -45,6 +56,16 @@
 
   position: relative;
   z-index: 10;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+    padding: 1.5rem 0.5rem;
+  }
 }
 
 .icon {
@@ -52,4 +73,11 @@
   height: 1.75rem;
   margin-right: 2rem;
   fill: currentColor;
+
+  @media only screen and (max-width: $bp-small) {
+    margin-right: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 5px;
+  }
 }

@@ -1,7 +1,13 @@
+@import "../../index.scss";
+
 .search {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-width: $bp-smaller) {
+    background-color: var(--color-grey-light-2);
+  }
 }
 
 .input {

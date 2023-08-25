@@ -1,3 +1,4 @@
+import CallToAction from "./CallToAction";
 import Detail from "./Detail/Detail";
 import Gallery from "./Gallery/Gallery";
 import Overview from "./Overview/Overview";
@@ -10,6 +11,7 @@ const HotelView = function () {
       <Gallery />
       <Overview />
       <Detail />
+      <CallToAction />
     </main>
   );
 };

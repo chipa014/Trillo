@@ -1,10 +1,18 @@
+@import "../../../../index.scss";
+
 .description {
   background-color: var(--color-white);
   flex: 0 0 60%;
   box-shadow: var(--shadow-light);
   padding: 3rem;
 
-  font-size: 1.4rem;
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-bottom: 3rem;
+  }
 }
 
 .paragraph:not(:last-of-type) {

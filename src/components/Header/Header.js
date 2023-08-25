@@ -1,7 +1,7 @@
 import HeaderNavigation from "./HeaderNavigation/HeaderNavigation";
 import Search from "./Search";
 
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 
 const Header = function () {
   return (
