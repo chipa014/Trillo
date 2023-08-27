@@ -5,7 +5,7 @@ const User = function (props) {
     <div className={styles.user}>
       <img
         src={props.src}
-        alt="User profile picture"
+        alt="User profile"
         className={styles["profile-pic"]}
       />
       <span className={styles.userName}>{props.name}</span>
