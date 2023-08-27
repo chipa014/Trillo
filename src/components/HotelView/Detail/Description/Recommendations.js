@@ -1,5 +1,5 @@
 import RecommendPhoto from "./RecommendPhoto";
-import styles from "./Recommendations.module.css";
+import styles from "./Recommendations.module.scss";
 
 const Recommendations = function () {
   const photos = [

@@ -3,7 +3,7 @@ import Detail from "./Detail/Detail";
 import Gallery from "./Gallery/Gallery";
 import Overview from "./Overview/Overview";
 
-import styles from "./HotelView.module.css";
+import styles from "./HotelView.module.scss";
 
 const HotelView = function () {
   return (

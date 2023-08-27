@@ -1,7 +1,7 @@
 import Icon from "../../UI/Icon";
 import InlineButton from "../../UI/InlineButton";
 
-import styles from "./Location.module.css";
+import styles from "./Location.module.scss";
 
 const Location = function (props) {
   return (

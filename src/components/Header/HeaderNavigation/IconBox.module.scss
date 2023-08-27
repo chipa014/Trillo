@@ -15,12 +15,14 @@
   border-radius: 50%;
   background-color: var(--color-primary);
   color: var(--color-white);
-
   position: absolute;
   top: 1.5rem;
   right: 1.1rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }

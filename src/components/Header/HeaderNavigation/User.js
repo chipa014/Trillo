@@ -1,4 +1,4 @@
-import styles from "./User.module.css";
+import styles from "./User.module.scss";
 
 const User = function (props) {
   return (

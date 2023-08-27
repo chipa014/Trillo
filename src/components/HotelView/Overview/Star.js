@@ -1,6 +1,6 @@
 import Icon from "../../UI/Icon";
 
-import styles from "./Star.module.css";
+import styles from "./Star.module.scss";
 
 const Star = function (props) {
   return (

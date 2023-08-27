@@ -1,6 +1,6 @@
 import GalleryImage from "./GalleryImage";
 
-import styles from "./Gallery.module.css";
+import styles from "./Gallery.module.scss";
 
 const Gallery = function () {
   const images = [
